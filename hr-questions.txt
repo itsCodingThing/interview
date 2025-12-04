@@ -1,0 +1,27 @@
+Questions: So tell me about yourself or describe about yourself
+
+Answer: 
+so hi i am bhanu and i am fullstack developer with 3+ years of experience. i mostly worked on the React.js and Node.js related projects 
+i also have some decent experience in typescript, i currently works as a freelance dev and worked on various types of projects, in my last company which was a startup 
+i was the main backend lead developer my main responsibility was to create scalable and maintainable apis for there edteach app occationally worked on the frontend side also 
+so when i joined they were in there early stages so contribute as much as possible to there initial ideas and build there different frontends and backends as per there need, 
+in my serving time i worked with different aws and google services and also develop there cd pipeline using github actions so that website deployment can become smooth
+i worked there for almost 2 years and then i have to leave the company due my father's medical issue, i didn't leave the company immediately i wokred there for almost 5-6 month
+on the contract bases, and then i moved to full time freelance and then i worked for freelance for almost a year and now i am looking for some opportunity to work again as full dev
+
+/// improved chatgpt version
+Hi, I’m Bhanu, and I’m a full-stack developer with a little over 3 years of experience, mainly working with React.js, Node.js, and TypeScript.
+I’ve worked across both product-based startups and freelance projects, which has given me exposure to building systems end-to-end.
+
+In my previous full-time role at a startup, I was the backend lead, responsible for designing and developing scalable and maintainable APIs for their ed-tech platform. Since the company was in an early stage when I joined, I contributed heavily to shaping their architecture, building multiple backend services and some frontend features as well.
+I also worked with a range of AWS and Google Cloud services and set up their CI/CD pipeline using GitHub Actions to streamline deployments.
+
+I worked there for almost 2 years. Due to my father’s medical situation, I had to transition out of the full-time role, but I continued supporting the team for another 5–6 months on a contract basis to ensure a smooth handover.
+
+After that, I moved into full-time freelancing, where I spent about a year working on various projects—mainly React, Node, TypeScript, and API-driven applications.
+Now, I’m looking for a full-time opportunity again where I can contribute to impactful projects and continue growing as a developer.
+
+
+Question: What are your strengths?/What are your weaknesses?
+Question: Why did you leave your last job?/Why is there a gap in your resume?
+Question: What are your salary expectations?
