@@ -1,7 +1,11 @@
 import { MongoClient } from "mongodb";
+import z from "zod";
 
-const uri = "mongodb://root:password@localhost:27021/";
-export const localClient = new MongoClient(uri);
+const env = await z
+	.object({ LOCAL_DB: z.string(), REMOTE_DB: z.string() })
+	.parseAsync(process.env);
 
-const remoteUri = "mongodb+srv://itscodingthing:kWh5XGGsXzZtcZbk@cluster0.bkuijyq.mongodb.net/"
-export const remoteClient = new MongoClient(remoteUri);
+console.log(env);
+
+export const localClient = new MongoClient(env.LOCAL_DB);
+export const remoteClient = new MongoClient(env.REMOTE_DB);
