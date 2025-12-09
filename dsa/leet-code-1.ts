@@ -1,3 +1,24 @@
+// remove doplicates from sorted array
+// Problem:
+// Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length.
+// Example:
+// Input: nums = [1,1,1,3,5,7,7]
+// Output: 4, nums = [1,3,5,7]
+export function removeDuplicatesFromSortedArray(nums: number[]) {
+  if (nums.length === 0) return 0;
+
+  let slow = 0;
+  for(let fast=0; fast < nums.length; fast++) {
+    if (nums[fast + 1] !== nums[slow]) {
+        slow += 1;
+        nums[slow] = nums[fast];
+    }
+  }
+
+  return slow + 1;
+}
+
+
 // Merge Two Sorted Arrays
 // Problem:
 // Merge two sorted arrays nums1 and nums2 into one sorted array in-place inside nums1.
